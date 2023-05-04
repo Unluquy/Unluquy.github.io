@@ -1,7 +1,7 @@
 .dev.env
 .prod.env
 
-dev.env
-prod.env
+config/dev.env
+config/prod.env
 
 /node_modules   
