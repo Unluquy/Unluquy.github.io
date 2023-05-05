@@ -3,5 +3,6 @@
 
 config/dev.env
 config/prod.env
+config/process.env
 
 /node_modules   
