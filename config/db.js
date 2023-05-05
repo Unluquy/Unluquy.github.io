@@ -2,11 +2,11 @@ const mariadb = require('mariadb');
 //const config = require('./config.js');
 
 const pool = mariadb.createPool({
-    host: process.env.HOST,
-    user: process.env.USER,
-    password: process.env.PASSWORD,
-    database: process.env.DATABASE,
-    port: process.env.PORT,
+    host: config.HOST,
+    user: config.USER,
+    password: config.PASSWORD,
+    database: config.DATABASE,
+    port: config.PORT,
     trace : true
 })
 
